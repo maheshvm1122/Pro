@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Expo
+.expo/
+.expo-shared/
+.expo/cache/
+.web/
+
+# EAS
+.eas/
+
+# Android
+android/
+**/build/
+android/app/build/
+.gradle/
+
+# iOS
+ios/Pods/
+ios/build/
+
+# Local env and credentials
+*.keystore
+*.jks
+*.p12
+.env
+.env.*
+
+# IDEs and OS
+.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# Misc
+*.log
+dist/
+web-build/
+**/*.local
